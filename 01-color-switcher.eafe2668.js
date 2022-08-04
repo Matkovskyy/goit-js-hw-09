@@ -1,2 +1,0 @@
-const t=document.querySelector("button[data-start]"),e=document.querySelector("button[data-stop]");t.addEventListener("click",(function(){n=setInterval((()=>{document.body.style.background=`#${Math.floor(16777215*Math.random()).toString(16)}`}),1e3),o(!1,!0)})),e.addEventListener("click",(function(){clearInterval(n),o(!0,!1)}));let n=null;const o=(n,o)=>{t.disabled=o,e.disabled=n};
-//# sourceMappingURL=01-color-switcher.eafe2668.js.map
