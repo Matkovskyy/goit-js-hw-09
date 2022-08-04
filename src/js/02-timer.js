@@ -31,7 +31,7 @@ function addLeadingZero(value) {
 startButton.addEventListener('click', onStartClick);
 dateInput.addEventListener('change', onInputCheck);
 
-function onStartClick(evt) {
+function onStartClick(event) {
   changeButton(true);
 
   let dateMs = date.selectedDates[0].getTime();

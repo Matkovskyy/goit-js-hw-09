@@ -60,6 +60,7 @@ formEl.addEventListener('submit', onClickSubmit);
 
 function onClickSubmit(event) {
   event.preventDefault();
+  event.target.reset();
   const elements = event.currentTarget.elements;
   const stepNumber = Number(elements.step.value);
   const delayNumber = Number(elements.delay.value);
